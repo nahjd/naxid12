@@ -1,0 +1,332 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+background-color: black;
+
+
+  /* font-synthesis: none; */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* -webkit-text-size-adjust: 100%; */
+}
+#root {
+  background-image: url("https://images5.alphacoders.com/132/1325121.png");
+  /* background-repeat: no-repeat; */
+  background-repeat: repeat;
+  margin: 0px;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#root nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: blue;
+  margin: 0;
+ 
+}
+#root nav li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-product{
+  background-color: yellow;
+  color: black;
+}
+.add-btn{
+  background-color: green;
+  color: black;
+}
+.search-input{
+  background-color: green;
+  color: black;
+}
+.form-inp{
+  
+  background-color: blue;
+  color: white;
+}
+a {
+  
+  border: none;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+form {
+  margin-top: 320px;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  font-size: 18px;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.search-input {
+  height: 50px;
+  width: 70%;
+  margin-left: 287px;
+  font-size: 18px;
+  background-color: lightblue;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.delete-btn,
+.edit-btn {
+  
+  width: 100%;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  background-color: red;
+}
+.edit-btn {
+  background-color: skyblue;
+}
+edit-btn:hower {
+  border-color: darkgray;
+}
+.delete-btn {
+  background-color: red;
+}
+.none {
+  display: none;
+}
+.log-out {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.register {
+  text-decoration: underline;
+}
+input {
+  margin-bottom: 20px;
+  border-color: #535bf2;
+  background-color: #a0a4f3;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+}
+#root {
+  margin: 0px;
+  padding: 0px;
+}
+table {
+  width: 70%;
+  border: 1px solid lightgray;
+  margin: 0 auto;
+}
+
+td {
+  padding: 20px;
+  border: 1px solid lightgray;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+tr,
+th {
+  height: 70px;
+  /* border: 1px solid black; */
+}
+.chakra-ui-light {
+  margin: 0px;
+  padding: 0px;
+}
+.add-product,
+.form-inp {
+  height: 50px;
+  width: 70%;
+  margin-left: 287px;
+  font-size: 18px;
+  background-color: rgb(255, 0, 0)3, 173;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+form {
+  margin-top: 20px;
+}
+
+.add-btn {
+  width: 200px;
+  height: 40px;
+  margin-left: 850px;
+}
+.login-inp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  height: 40px;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(0, 30, 255);
+}
+.login-btn{
+  margin-right: 100px;
+}
+#admin-write{
+  background-color: red;
+  margin: 0 auto;
+  padding: 0;
+}
+.containerr {
+  width: 600px;
+  margin: 0 auto;
+  min-height: 500px;
+  margin-top: 300px;
+}
+.login-btn {
+  margin-top: 10px;
+  margin-left: 440px;
+}
+p {
+  text-align: center;
+  margin-right: 80px;
+}
+#admin {
+  height: 20px;
+  margin-right: 200px;
+}
+#admin-write {
+  margin-left: 457px;
+  margin-bottom: 80px;
+}
+.edit-btn-table {
+  width: 200px;
+  height: 60px;
+  margin-left: 850px;
+  margin-bottom: 70px;
+}
+/* //Wishlist */
+/* #root , h1{
+  background-color: red;
+} */
+.header{
+  position: sticky;
+  top: 0;
+  min-height: 80px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  background-color: blue;
+  }
+  .logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 40px;
+  }
+  .header-links {
+    display: flex;
+
+  }
+  .header-links ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+  }
+  .header-links ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 5px;
+  }
+#starbtn{
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  position: absolute;
+  bottom: 60px;
+  right:70px;
+}
+.chakra-card {
+  margin: 20px;
+  margin-top: 20px;
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.chakra-card__body{
+  border: 10px solid black;
+  background-color: blue;
+ 
+}
+.chakra-image{
+  width: 220px;
+  height: 200px;
+}
+.chakra-heading {
+  margin: 0 auto;
+  position: relative;
+  top: -20px;
+  color: white;
+}
+.nahid{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
